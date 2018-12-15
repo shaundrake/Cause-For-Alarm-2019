@@ -1,0 +1,191 @@
+html {
+  height: 100%;
+  }
+body {
+  background-color: #d2e9f2; /* light cyan */
+  background-image: url("../images/eg_hatchback_ef_crx_dc_coupe_ek_sedan.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding: 0 20px 20px 20px;
+  height: 100%;
+  }
+img#wreckless {
+  margin: 0 auto;
+  display: block;
+}
+#logo {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  max-width: 800px;
+  width: 90%;
+  }
+
+/* HEADINGS AND PARAGRAPHS */
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font-family: serif;
+	font-weight: bold;
+	color: #222; /* almost black */
+    }
+h1 {
+	line-height: 1;
+	font-size: 36px; /* so "Plug-in Engine Bay Ignition Kill" doesn't wrap */
+	}
+h1 + h2 {
+	margin: 0;
+	}
+h3 {
+	border-bottom: medium solid;
+	margin-bottom: 8px;
+	font-size: 24px;
+	line-height: 30px;
+	}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font-family: serif;
+	}
+
+li.list_heading {
+	margin-top: 20px;
+	font-family: serif;
+	}
+
+a[href] {
+
+    }
+a[href]:hover {
+
+	}
+
+table {
+	margin: -1px; /* compensate for hidden border */
+	width: 100%;
+	border-collapse: separate;
+	empty-cells: hide;
+	}
+td {
+	border: 0 solid white;
+	color: white;
+	background-color: #353a3e; /* gray */
+	}
+tr + tr td {
+	border-top-width: 1px;
+	}
+td + td {
+	border-left-width: 1px;
+	}
+td, th {
+	padding: 8px;
+	font-family:  sans-serif;
+	}
+th {
+	margin: 5px 0 3px 0;
+  color: #353a3e; /* gray */
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	}
+th[colspan] {
+	padding: 0;
+	font-family: serif;
+	font-size: 20px;
+	}
+p, li, td {
+	line-height: 1.4;
+	font-size: 16px;
+	font-family:  sans-serif;
+	}
+p.strong {
+	margin-top: 30px;
+	}
+.caption {
+	font-style: italic;
+	margin: 6px 0 40px 0;
+	}
+.caption + .caption {
+	margin-top: -35px;
+	}
+.caption + p {
+	margin-top: -30px;
+	}
+
+
+nav {
+    padding: 0px 0;
+}
+nav a {
+  width: 18%;
+  background-color: rgba(73,4,47,.8); /* plum */
+  color: white;
+  font-size: 18pt;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: right;
+  display: inline-block;
+  padding: 20px 20px 10px 30px;
+}
+nav a + a {
+  margin-top: 0px;
+}
+nav a:nth-child(2) {
+  background-color: rgba(0,49,99,.8); /* indigo */
+}
+nav a:nth-child(3) {
+  background-color: rgba(35,166,222,.8); /* teal */
+}
+nav a:nth-child(4) {
+  background-color: rgba(170,170,170,.8);
+}
+nav a:nth-child(5) {
+  background-color: rgba(0,124,125,.8); /* teal */
+}
+
+/* CONTENT */
+.content {
+  width: 80%;
+  margin: 0 auto;
+  min-height: 100%;
+  }
+
+/* CONTENT LEFT */
+.content_left {
+  float: left;
+  width: 40%;
+  min-height: 100%;
+  border: 5px solid #49042f; /* plum */
+  }
+
+/* CONTENT RIGHT */
+.content_right {
+  float: left;
+  width: 40%;
+  min-height: 100%;
+  border: 5px solid #003163; /* indigo */
+  }
+
+/* FOOTER */
+footer {
+	clear: both;
+	margin-left: -20px; margin-right: -20px;
+  padding: 20px;
+  background-color: #aaa;
+	text-align: center;
+  }
+footer ul {
+	padding: 0;
+	}
+footer li {
+	padding-left: 0;
+	text-indent: 0;
+	}
+footer li,
+footer p {
+	font-size: 12px;
+	}
+footer li + li {
+	margin-left: 10px;
+	}
+footer p {
+	margin-top: 4px;
+	text-align: center;
+	}

@@ -1,0 +1,297 @@
+/* 6/2/13 */	
+/* RESET HTML STYLE DEFAULTS */
+html {
+    overflow-y: scroll; /* prevents the small difference in positions between pages w and w/out the scroll bar by always forcing a scroll bar */
+}
+body {
+	margin: 0; 
+	margin-bottom: 20px;
+	line-height: 1;
+	font-size: 100%;
+	}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	}
+h1 {
+	font-size: 44px;
+	line-height: 48px;
+	}	
+h2 {
+	font-size: 34px;
+	line-height: 38px;
+	}	
+h3 {
+	font-size: 26px;
+	line-height: 30px;
+	}	
+h4 {
+	font-size: 18px;
+	line-height: 22px;
+	}	
+h5 {
+	font-size: 14px;
+	line-height: 18px;
+	}	
+h6 {
+	font-size: 12px;
+	line-height: 16px;
+	}
+	
+p {
+	margin: 0;
+	}
+a:active,
+a:focus {
+	outline: none;
+	}
+ul { 
+	list-style-type: none;
+	list-style-position: inside;
+	margin: 0; padding: 0;
+	display: block;
+	line-height: 20px;
+	}
+ol {
+	list-style-position: inside;
+	margin: 0; padding: 0;
+	display: block;
+	line-height: 20px;	
+	}
+li { /* evens up the text wrap */
+	text-indent: -12px;
+	padding-left: 12px;
+	}
+	
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p,
+h6 + p,
+h1 + ul,
+h2 + ul,
+h3 + ul,
+h4 + ul,
+h5 + ul,
+h6 + ul,
+h1 + table,
+h2 + table,
+h3 + table,
+h4 + table,
+h5 + table,
+h6 + table {
+	margin-top: 10px;
+	}
+
+h1 + h2,
+h1 + h3,
+h1 + h4,
+h1 + h5,
+h1 + h6,
+h1 + img,
+h1 + span[class*="master"] {
+	margin-top: 20px;
+	}
+h2 + h1,
+h2 + h3,
+h2 + h4,
+h2 + img,
+h2 + span[class*="master"] {
+	margin-top: 15px;
+	}
+h2 + h5,
+h2 + h6 {
+	margin-top: 5px;
+	}	
+h3 + h1,
+h3 + h2,
+h3 + h4,
+h3 + h5,
+h3 + h6,
+h3 + img,
+h3 + span[class*="master"] {
+	margin-top: 10px;
+	}	
+h4 + h1,
+h4 + h2,
+h4 + h3,
+h4 + h5,
+h4 + h6,
+h4 + img,
+h4 + span[class*="master"] {
+	margin-top: 5px;
+	}	
+h5 + h1,
+h5 + h2,
+h5 + h3,
+h5 + h4,
+h5 + h6,
+h5 + img,
+h6 + img,
+h5 + span[class*="master"],
+h6 + span[class*="master"] {
+	margin-top: 3px;	
+	}
+ul + h1,
+ul + h2,
+ul + h3,
+ul + h4,
+ul + h5,
+ul + h6,
+ul + img,
+ul + span[class*="master"],
+ol + h1,
+ol + h2,
+ol + h3,
+ol + h4,
+ol + h5,
+ol + h6,
+ol + img,
+ol + span[class*="master"],
+table + h1,
+table + h2,
+table + h3,
+table + h4,
+table + h5,
+table + h6,
+table + img,
+table + span[class*="master"],
+table + table,
+a + h1,
+a + h2,
+a + h3,
+a + h4,
+a + h5,
+a + h6,
+img + h1,
+span[class*="master"] + h1,
+img + h2,
+span[class*="master"] + h2,
+img + h3,
+span[class*="master"] + h3,
+img + h4,
+span[class*="master"] + h4,
+img + h5,
+span[class*="master"] + h5,
+img + h6,
+span[class*="master"] +h6 ,
+img + p,
+span[class*="master"] + p,
+img + ul,
+span[class*="master"] + ul,
+img + ol,
+span[class*="master"] + ol,
+p + img,
+p + span[class*="master"],
+p + table {
+	margin-top: 20px;
+	}
+p + p,
+p + ul,
+ul + p,
+p + ol,
+ol + p,
+table + p {
+	margin-top: 10px;
+	}
+address { 
+	font-style: normal;
+	font-weight: normal;
+	}
+a { 
+	text-decoration: none;
+	}
+a img { 
+	border: none;
+	}
+img {
+	line-height: 0;
+	vertical-align: bottom;
+	}
+
+p + h1,
+p + h2,
+p + h3,
+p + h4,
+p + h5,
+p + h6 {
+	margin-top: 25px;	
+	}
+p + a img {
+	display: block;
+	margin-top: 5px;
+	}
+p + div,
+div + p {
+	margin-top: 10px;
+	}
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	empty-cells: hide;
+	}	
+th {
+	text-align: left;
+	}
+table + h1 {
+	margin-top: 30px;
+	}
+table img,
+div img {
+	vertical-align: bottom; 
+	}
+object { /* Flash */
+	outline: none;
+	vertical-align: bottom;
+	}
+iframe {
+	margin-top: 10px;
+	}
+	
+.strong {
+	font-weight: bold;
+	}
+.emphasis {
+	font-style: italic;
+	}	
+.quote {
+	font-style: italic;
+	}	
+
+.left {
+	float: left;
+	}
+.right {
+	float: right;
+	}
+.clear {
+	clear: both;
+	}	
+
+ul.horizontal {
+	margin: 0 auto;
+	display: table;
+	padding: 5px 0;
+	}
+.horizontal li {
+	float: left;
+	padding-left: 0;
+	text-indent: 0;
+	}
+.horizontal li + li {
+	margin-left: 10px;
+	}
+	
+li.list_heading {
+	list-style-type: none !important;
+	font-weight: bold;
+	font-size: larger;
+	}
+li + li.list_heading {
+	margin-top: 10px
+	}
+
+.hidden {
+	display: none;
+/*	visibility: hidden; */
+}
